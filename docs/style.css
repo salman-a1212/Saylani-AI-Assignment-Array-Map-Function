@@ -36,3 +36,10 @@ input:placeholder-shown {
   font-size: 1.5rem;
   font-weight: 700;
 }
+
+.result-con {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
