@@ -5,8 +5,6 @@ let m1 = [
   [5, 3, 2],
 ];
 
-console.log("m1", m1);
-
 let m4 = 0;
 
 m1.map((eachRow, i) => {
