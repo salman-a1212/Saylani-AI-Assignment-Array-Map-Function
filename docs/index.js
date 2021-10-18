@@ -9,7 +9,8 @@ let m4 = 0;
 
 m1.map((eachRow, i) => {
   eachRow.map((eachRowItem) => {
-    // console.log("eachRowItem: ", eachRowItem);
+    console.log("eachRowItem: ", eachRowItem);
+    console.log("m1", m1);
     m4 = m4 + eachRowItem;
   });
 });
@@ -24,7 +25,8 @@ let m3 = 0;
 
 m2.map((eachRow, i) => {
   eachRow.map((eachRowItem) => {
-    // console.log("eachRowItem: ", eachRowItem);
+    console.log("eachRowItem: ", eachRowItem);
+    console.log("m2", m2);
     m3 = m3 + eachRowItem;
   });
 });
