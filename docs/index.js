@@ -39,10 +39,3 @@ console.log("m5", m5);
 
 let result = document.getElementById("result");
 result.innerText = m5;
-
-// CSV function
-input.oninput = function numberWithCommas() {
-  let x = document.getElementById("input").value;
-  console.log(x);
-  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-};
