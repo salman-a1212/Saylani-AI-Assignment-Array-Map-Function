@@ -1,4 +1,3 @@
-var input = document.getElementsByName("array[]");
 let m1 = [
   [3, 4, 6],
   [5, 4, 6],
