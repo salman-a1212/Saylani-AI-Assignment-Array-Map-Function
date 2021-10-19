@@ -47,6 +47,6 @@ const sum = () => {
   document.getElementById("m3v7").value = m3[2][0];
   document.getElementById("m3v8").value = m3[2][1];
   document.getElementById("m3v9").value = m3[2][2];
-
-  btn.addEventListener("click", sum);
 };
+
+btn.addEventListener("click", sum);
